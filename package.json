@@ -1,0 +1,45 @@
+{
+  "name": "office-automation-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://dhruvdua88.github.io/office-automation-demo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@hookform/resolvers": "^5.2.2",
+    "dayjs": "^1.11.20",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.7",
+    "lucide-react": "^1.14.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-hook-form": "^7.75.0",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.15.0",
+    "xlsx": "^0.18.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
+    "globals": "^17.5.0",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^3.4.19",
+    "vite": "^8.0.10"
+  }
+}
